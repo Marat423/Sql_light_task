@@ -1,0 +1,8 @@
+Компании, летавшие на Boeing
+Какие компании совершали перелеты на Boeing
+
+
+```SELECT DISTINCT name FROM Company 
+INNER JOIN Trip 
+on Company.id = Trip.company
+WHERE plane = 'Boeing'```
