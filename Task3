@@ -1,2 +1,5 @@
+Рейсы из Москвы
+Вывести все рейсы, совершенные из Москвы
+
 ```Select * From Trip
 Where town_from = 'Moscow'```
