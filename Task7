@@ -1,0 +1,6 @@
+Самолеты, летящие в Москву
+Вывести все названия самолётов, на которых можно улететь в Москву (Moscow)
+
+```SELECT plane FROM trip 
+WHERE town_to = 'Moscow'
+GROUP BY plane```
